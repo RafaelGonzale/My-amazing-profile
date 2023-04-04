@@ -1,0 +1,164 @@
+body{
+    background-image: url(./image/wp2754711.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+p{
+    font-family: 'Domine', serif;
+    font-family: 'Mandali', sans-serif;
+    color: white;
+}
+
+h1, h2{
+    font-family: 'Domine', serif;
+    font-family: 'Philosopher', sans-serif;
+    color: yellow;
+    font: 48px;
+    font-size: 25px;
+
+}
+
+img{
+    border-radius: 250px;
+    width: 150px;
+    height: 200px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    
+
+}
+
+li{
+    display: inline;
+}
+
+.inline-links{
+    color: white;
+    background-color: none;
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+
+.inline-links:hover{
+    background-color: yellowgreen;
+}
+
+.Cards {
+    background-color: linear-gradient(right, green);
+    background-color: linear-gradient(bottom, yellow);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 24px;
+    padding: 25px;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 32px;
+}
+
+.Cards:hover{
+    box-shadow: 8px 8px 6px black;
+}
+
+#Container {
+    width: 700px;
+    margin: 24px auto;
+}
+
+.profil_pic{
+    width: 150px;
+}
+
+#button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: none;
+    background-color: rgb(32, 97, 18);
+    color: white;
+    margin: 3px 0;
+    transition: opacity .3s ease-in-out;
+    font-weight: bolder;
+
+
+}
+
+#button:hover{
+    opacity: 0 6 ;
+    background-color: yellowgreen;
+
+}
+
+@media (max-width: 960px) {
+    #Container {
+      width: 700px;
+    }
+  }
+
+@media (max-width: 720px) {
+    #Container {
+      width: 500px;
+    }
+  }
+
+@media (max-width: 540px) {
+    #Container {
+      width: 300px;
+    }
+  }
+
+  .fa-brands{
+    width: 50px;
+    display: inline-block;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .fa-brands:hover{
+    transform: scale(1.5);
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:  rgb(32, 97, 18)f9;
+    min-width: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: yellow;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
