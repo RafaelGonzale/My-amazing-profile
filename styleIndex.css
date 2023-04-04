@@ -94,23 +94,11 @@ li{
 
 }
 
-@media (max-width: 960px) {
-    #Container {
-      width: 700px;
-    }
-  }
+a {
+    text-decoration: none;
+}
 
-@media (max-width: 720px) {
-    #Container {
-      width: 500px;
-    }
-  }
 
-@media (max-width: 540px) {
-    #Container {
-      width: 300px;
-    }
-  }
 
   .fa-brands{
     width: 50px;
@@ -161,4 +149,23 @@ li{
   
   .dropdown-content a:hover {
     background-color: #ddd;
+  }
+
+
+  @media (max-width: 960px) {
+    #Container {
+      width: 700px;
+    }
+  }
+
+@media (max-width: 720px) {
+    #Container {
+      width: 500px;
+    }
+  }
+
+@media (max-width: 540px) {
+    #Container {
+      width: 300px;
+    }
   }
