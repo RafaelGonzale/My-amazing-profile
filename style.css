@@ -1,26 +1,30 @@
 body{
-    background-color: rgb(230, 230, 230);
+    background-image: url(./image/wp2754711.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    
-/* add better font family styles*/
 }
 
-h1{
-    color: darkslategray;
+p{
+    font-family: 'Domine', serif;
+    font-family: 'Mandali', sans-serif;
+    color: white;
+}
+
+h1, h2{
+    font-family: 'Domine', serif;
+    font-family: 'Philosopher', sans-serif;
+    color: yellow;
     font: 48px;
+    font-size: 25px;
 
 }
 img{
     border-radius: 250px;
     width: 150px;
-    height: 150px;
-
-}
-
-h2{
-    color: black;
-
+    height: 200px;
 }
 
 
@@ -36,25 +40,29 @@ li{
 }
 
 .inline-links{
-    color: black;
-    background-color: rgb(230, 230, 230);
+    color: white;
+    background-color: none;
     text-decoration: underline;
     font-size: 16px;
 
 }
 
-.link1{
-    background-color: sandybrown;
-    text-decoration: underline;
+.inline-links:hover{
+    background-color: yellowgreen;
 }
 
 .Cards {
-    background-color: white;
+    background-color: linear-gradient(right, green);
+    background-color: linear-gradient(bottom, yellow);
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 24px;
-    box-shadow: 5px 5px 3px black;
     padding: 25px;
+    box-shadow: 5px 5px 3px black;
     border-radius: 32px;
+}
+
+.Cards:hover{
+    box-shadow: 8px 8px 6px black;
 }
 
 #Container {
@@ -71,7 +79,7 @@ li{
     border-radius: 5px;
     display: inline-block;
     text-align: none;
-    background-color: blue;
+    background-color: rgb(32, 97, 18);
     color: white;
     margin: 3px 0;
     transition: opacity .3s ease-in-out;
@@ -82,18 +90,35 @@ li{
 
 #button:hover{
     opacity: 0 6 ;
-    background-color: grey;
+    background-color: yellowgreen;
 
 }
 
-@media (max-width: 900px) {
-    #container {
-        width: 600px;
+@media (max-width: 960px) {
+    #Container {
+      width: 700px;
     }
-}
+  }
 
-@media (max-width: 600px) {
-    #container {
-        width: 450px;
+@media (max-width: 720px) {
+    #Container {
+      width: 500px;
     }
-}
+  }
+
+@media (max-width: 540px) {
+    #Container {
+      width: 300px;
+    }
+  }
+
+  .fa-brands{
+    width: 50px;
+    display: inline-block;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .fa-brands:hover{
+    transform: scale(1.5);
+  }
