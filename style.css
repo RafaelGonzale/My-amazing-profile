@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+/* add better font family styles*/
+}
+
+h1{
+    color: darkslategray;
+    font: 48px;
+
+}
+img{
+    border-radius: 250px;
+    width: 150px;
+    height: 150px;
+
+}
+
+h2{
+    color: black;
+
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    
+
+}
+
+li{
+    display: inline;
+}
+
+.inline-links{
+    color: black;
+    background-color: rgb(230, 230, 230);
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+
+.link1{
+    background-color: sandybrown;
+    text-decoration: underline;
+}
+
+.Cards {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 24px;
+    box-shadow: 5px 5px 3px black;
+    padding: 25px;
+    border-radius: 32px;
+}
+
+#Container {
+    width: 700px;
+    margin: 24px auto;
+}
+
+.profil_pic{
+    width: 150px;
+}
+
+#button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: none;
+    background-color: blue;
+    color: white;
+    margin: 3px 0;
+    transition: opacity .3s ease-in-out;
+    font-weight: bolder;
+
+
+}
+
+#button:hover{
+    opacity: 0 6 ;
+    background-color: grey;
+
+}
+
+@media (max-width: 900px) {
+    #container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    #container {
+        width: 450px;
+    }
+}
